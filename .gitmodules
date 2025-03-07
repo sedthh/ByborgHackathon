@@ -7,3 +7,6 @@
 [submodule "seamless_communication"]
 	path = seamless_communication
 	url = https://github.com/facebookresearch/seamless_communication
+[submodule "OpenVoice"]
+	path = OpenVoice
+	url = https://github.com/myshell-ai/OpenVoice.git
