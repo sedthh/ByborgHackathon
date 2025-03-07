@@ -4,3 +4,6 @@
 [submodule "RollingDepth"]
 	path = RollingDepth
 	url = https://github.com/prs-eth/RollingDepth.git
+[submodule "seamless_communication"]
+	path = seamless_communication
+	url = https://github.com/facebookresearch/seamless_communication
