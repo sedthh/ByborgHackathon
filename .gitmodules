@@ -1,3 +1,6 @@
 [submodule "MatAnyone"]
 	path = MatAnyone
 	url = https://github.com/pq-yang/MatAnyone.git
+[submodule "RollingDepth"]
+	path = RollingDepth
+	url = https://github.com/prs-eth/RollingDepth.git
