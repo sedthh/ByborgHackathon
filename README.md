@@ -71,6 +71,11 @@ Commands required for installation:
  - wget https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_1226.zip
  - unzip checkpoints_1226.zip
  - wget https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/openvoice.py
+
+#### PoC with Unreal Engine
+We have created a PoC for rendering in Unreal Engine. All of this can be easily implemented using WebGL on the client's machine. This way we get a near real-time solution that requires fewer resources.
+Unreal engine project files downloadable here: https://drive.google.com/file/d/1YkMz4acd3cnuCFS8Kxqlee_nAFeS2NP-/view?usp=drive_link
+
 ## Pipeline
 
 In its current state, the procedure can be fully executed by running the `start_process.sh` bash script.
