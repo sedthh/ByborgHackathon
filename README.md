@@ -1,4 +1,5 @@
-### BigDataEnergy
+
+# Big Data Energy
 
 The required components were installed manually for the sake of the PoC.
 
@@ -66,17 +67,21 @@ Commands required for installation:
  - wget https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/openvoice.py
 
 #### TheoremExplainAgent
-
-
-## Orchestartion
-A central control layer is needed, which would be the orchestration. This receives the input content and initiates the subprocesses.
-
+TheoremExplainAgent (TEA) is an innovative AI system designed to generate long-form explanatory videos for mathematical and scientific theorems using Manim animations. It employs a two-agent architecture: a planner agent that constructs structured narratives and a coding agent that translates them into Python animation scripts. To assess the quality of these AI-generated explanations, TheoremExplainBench (TEB) was introduced, covering 240 theorems across multiple STEM disciplines with five evaluation metrics. Results show that agentic planning significantly improves video coherence, with the o3-mini agent achieving a 93.8% success rate. However, minor layout issues persist in the generated videos. Notably, multimodal explanations help uncover deeper reasoning flaws that text-based methods often miss, emphasizing the importance of integrating visual elements in theorem explanations.
+This is a very new model that currently relies on paid services. There will likely be a free version available in the future. 
+Source: https://tiger-ai-lab.github.io/TheoremExplainAgent/
 
 
 ## Pipeline
 
-
+In its current state, the procedure can be fully executed by running the `start_process.sh` bash script.
 
 ## Further development possibilities
+### Orchestration
+A central control layer is needed, which would be the orchestration. This receives the input content and initiates the subprocesses.
 
+### Scalability
+The pipeline consists of process components, each of which can be placed in separate Docker containers. Some of these containers handle tasks that can be parallelized, while others cannot. To manage this efficiently, an orchestration layer is essential. This backend software coordinates process execution, synchronizes results, and ultimately generates the final video feed.
+
+### AI-based educational material enhancement based on feedback
 Create a review test from the learning material to check if you have understood everything. Based on this, it can either review or elaborate on certain topics.
