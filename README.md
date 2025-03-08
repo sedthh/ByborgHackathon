@@ -1,5 +1,5 @@
 
-# Big Data Energy
+# Big Data Energy - Team 28
 
 The required components were installed manually for the sake of the PoC.
 
@@ -34,6 +34,8 @@ Commands required for installation:
  - pip install -e .
  - pip install -r hugging_face/requirements.txt
 
+![enter image description here](https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/mat0.png)
+
 #### RollingDepth
 Commands required for installation:
  - git clone https://github.com/prs-eth/RollingDepth.git
@@ -44,6 +46,10 @@ Commands required for installation:
  - pip install -r requirements.txt
  - cd diffusers/
  - pip install -e ".[dev]"
+
+![enter image description here](https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/rolling1.png)
+
+![enter image description here](https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/rolling2.png)
 
 #### Seamless
 Commands required for installation:
@@ -69,12 +75,18 @@ Commands required for installation:
 #### TheoremExplainAgent
 TheoremExplainAgent (TEA) is an innovative AI system designed to generate long-form explanatory videos for mathematical and scientific theorems using Manim animations. It employs a two-agent architecture: a planner agent that constructs structured narratives and a coding agent that translates them into Python animation scripts. To assess the quality of these AI-generated explanations, TheoremExplainBench (TEB) was introduced, covering 240 theorems across multiple STEM disciplines with five evaluation metrics. Results show that agentic planning significantly improves video coherence, with the o3-mini agent achieving a 93.8% success rate. However, minor layout issues persist in the generated videos. Notably, multimodal explanations help uncover deeper reasoning flaws that text-based methods often miss, emphasizing the importance of integrating visual elements in theorem explanations.
 This is a very new model that currently relies on paid services. There will likely be a free version available in the future. 
+
+![enter image description here](https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/theorem0.png)
+
+![enter image description here](https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/theorem1.png)
+
 Source: https://tiger-ai-lab.github.io/TheoremExplainAgent/
 
 
 ## Pipeline
 
 In its current state, the procedure can be fully executed by running the `start_process.sh` bash script.
+![Basic flowchart](https://raw.githubusercontent.com/sedthh/ByborgHackathon/refs/heads/main/big-data-energy-process-diagram.drawio.svg)
 
 ## Further development possibilities
 ### Orchestration
